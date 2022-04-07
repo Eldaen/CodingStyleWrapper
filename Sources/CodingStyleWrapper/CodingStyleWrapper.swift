@@ -39,9 +39,9 @@ private extension CodingStyle {
 		case .camelCase:
 			return makeCamelCase(text)
 		case .snakeCase:
-			return format(text, withCase: "-")
-		case .kebabCase:
 			return format(text, withCase: "_")
+		case .kebabCase:
+			return format(text, withCase: "-")
 		}
 	}
 	

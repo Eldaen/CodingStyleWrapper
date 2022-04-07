@@ -51,4 +51,18 @@ final class CodingStyleWrapperTests: XCTestCase {
 		// Then
 		XCTAssertEqual(model.text3, "some_string_to_be_made_kebab_cased")
 	}
+	
+	func testEmptyText() {
+		// Given
+		
+		// When
+		model.text = ""
+		model.text2 = ""
+		model.text3 = ""
+		
+		// Then
+		XCTAssertEqual(model.text, "")
+		XCTAssertEqual(model.text2, "")
+		XCTAssertEqual(model.text3, "")
+	}
 }
