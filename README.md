@@ -18,7 +18,7 @@ textClass.text2 = "SomeString to-be made_snake cased"
 textClass.text3 = "SomeString to-be made_kebab cased"
 print(textClass.text)     //someStringToBeMadeCamelCased
 print(textClass.text2)    //some-string-to-be-made-snake-cased
-print(textClass.text3)    //some-string-to-be-made-snake-cased
+print(textClass.text3)    //some_string_to_be_made_kebab_cased
 ```
 
 ## Установка
